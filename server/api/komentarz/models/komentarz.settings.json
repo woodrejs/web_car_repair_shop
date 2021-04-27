@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "komentarze",
+  "info": {
+    "name": "komentarz",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "uzytkownik": {
+      "type": "string",
+      "required": true
+    },
+    "data": {
+      "required": true,
+      "type": "date"
+    },
+    "tekst": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

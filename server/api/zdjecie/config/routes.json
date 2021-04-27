@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/zdjecies",
+      "handler": "zdjecie.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zdjecies/count",
+      "handler": "zdjecie.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zdjecies/:id",
+      "handler": "zdjecie.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/zdjecies",
+      "handler": "zdjecie.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/zdjecies/:id",
+      "handler": "zdjecie.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/zdjecies/:id",
+      "handler": "zdjecie.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

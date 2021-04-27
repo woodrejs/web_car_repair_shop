@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zdjecia",
+  "info": {
+    "name": "zdjecie",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nazwa": {
+      "type": "string",
+      "required": true
+    },
+    "plik": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

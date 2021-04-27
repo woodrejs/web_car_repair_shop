@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/komentarzs",
+      "handler": "komentarz.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/komentarzs/count",
+      "handler": "komentarz.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/komentarzs/:id",
+      "handler": "komentarz.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/komentarzs",
+      "handler": "komentarz.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/komentarzs/:id",
+      "handler": "komentarz.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/komentarzs/:id",
+      "handler": "komentarz.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

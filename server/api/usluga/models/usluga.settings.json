@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Uslugi",
+  "info": {
+    "name": "usluga"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nazwa": {
+      "type": "string",
+      "required": true
+    },
+    "cena": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-polyfill": "^6.26.0",
+    "firebase-tools": "^9.5.0",
+    "parcel": "^2.0.0-nightly.618"
+  }
+}

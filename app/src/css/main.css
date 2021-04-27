@@ -1,0 +1,20 @@
+.testimonial_box {
+  background-color: white;
+  max-height: 340px;
+  margin: 0 20px;
+  padding: 30px;
+  overflow-y: scroll;
+}
+.testimonial_date {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.testimonial_text {
+  margin-bottom: 10px;
+}
+.testimonial_user {
+  font-style: italic;
+}
+#slider {
+  transition: 1s;
+}
